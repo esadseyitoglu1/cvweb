@@ -12,6 +12,10 @@ build
 .env*.local
 .env
 
+# runtime logs (KVKK/GDPR — repoya girmesi yasak)
+chat-logs.txt
+error-logs.txt
+
 # logs
 npm-debug.log*
 yarn-debug.log*
