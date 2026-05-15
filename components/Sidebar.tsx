@@ -5,12 +5,12 @@ const CONTACT_EMAIL = "esad.seyitoglu@ozu.edu.tr";
 
 export default function Sidebar() {
   return (
-    <aside className="flex w-full flex-col gap-6 border-b border-border bg-panel p-8 md:sticky md:top-0 md:h-screen md:w-80 md:border-b-0 md:border-r lg:w-96">
+    <aside className="flex w-full flex-col gap-4 border-b border-border bg-panel p-6 md:gap-6 md:p-8 md:sticky md:top-0 md:h-screen md:w-80 md:border-b-0 md:border-r lg:w-96">
       <div className="flex flex-col gap-1">
-        <div className="mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-elevated text-3xl font-semibold text-accent ring-1 ring-border">
+        <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-elevated text-2xl font-semibold text-accent ring-1 ring-border md:mb-4 md:h-20 md:w-20 md:text-3xl">
           EE
         </div>
-        <h1 className="text-2xl font-semibold tracking-tight text-zinc-100">
+        <h1 className="text-xl font-semibold tracking-tight text-zinc-100 md:text-2xl">
           Esad Erva Seyitoğlu
         </h1>
         <p className="text-sm leading-relaxed text-zinc-400">
