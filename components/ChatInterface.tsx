@@ -233,11 +233,11 @@ function EmptyState({
       <div className="flex flex-col gap-2">
         <h3 className="text-xl font-semibold tracking-tight text-zinc-100">
           {targetLabel
-            ? `Merhaba ${targetLabel} ekibi, ben Esad'ın dijital CV asistanıyım.`
-            : "Merhaba, ben Esad'ın dijital CV asistanıyım."}
+            ? `Merhaba ${targetLabel} ekibi, ben Esad'ın AI ikizi.`
+            : "Merhaba, ben Esad'ın AI ikizi."}
         </h3>
         <p className="text-sm text-zinc-400">
-          Akademik geçmişi, projeleri ve yetkinlikleri hakkında her şeyi sorabilirsiniz.
+          Soracaklarınızı Esad'ın ağzından, birinci tekil cevaplayacağım. Gerçek görüşme için doğrudan kendisine yazabilirsiniz.
         </p>
       </div>
       <div className="grid w-full grid-cols-1 gap-2 sm:grid-cols-2">
